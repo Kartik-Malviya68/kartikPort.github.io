@@ -8,10 +8,7 @@
         color: #00FFAB;
         margin: 0 1rem;
     }
-    ::selection{
-        background-color: #00FFAB;
-        color: #018383;
-    }
+    
     * {
         font-family: 'Poppins', sans-serif;
     }
