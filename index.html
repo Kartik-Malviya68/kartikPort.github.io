@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Document</title>
+  </head>
+
+  <body id="scroll" class="bg-green-dark">
+    <div class="main flex items-center flex-col justify-center">
+      <nav id="nav"
+        class="flex container mx-auto h-24 fixed bg-green-dark top-0 px-10 items-center justify-between"
+      >
+        <div class="left-nav">
+          <img src="./img/Asset 2.png" class="w-12" alt="" />
+        </div> 
+        <div id="nav" class="right-nav  max-md:hidden">
+          <a id="home" class="nav-links" href="">home</a>
+          <a id="about" class="nav-links" href="#about">about</a>
+          <a id="exp" class="nav-links" href="#experience">experience</a>
+          <a id="projects" class="nav-links" href="#projects">projects</a>
+          <a id="contact" class="nav-links" href="#contact">contact</a>
+        </div>
+        <div id="burger" class="burgur z-50 hidden">
+            <div class="bg-green-prime py-0.5 my-1 px-5"></div>
+            <div class="bg-green-prime py-0.5 my-1 px-5"></div>
+            <div class="bg-green-prime py-0.5 my-1 px-5"></div>
+        </div>
+      </nav>
+      
+      <div
+        class="hero max-lg:flex-col flex pt-20  container mx-auto mt-10 max-lg:px-10 max-md:px-5 px-32 items-center justify-start"
+      >
+        <div class="avatar ">
+          <img
+            src="./img/IMG-20220926-WA0002 (4).jpg"
+            class="rounded-full max-lg:w-48 w-60"
+            alt=""
+          />
+        </div>
+        <div class="ml-24 text max-lg:ml-0 flex justify-center flex-col headings">
+          <h1 class="text-green-white_green max-lg:text-center font-semibold text-7xl my-4">
+            Kartik Malviya
+          </h1>
+          <p class="text-green-white w-fit max-lg:text-center max-md:w-fit text-3xl my-4">
+            Empowering Your Digital Dreams: Where Code Meets Creativity
+          </p>
+        </div>
+      </div>
+      <div id="nav_m" class=" px-5 transition-all max-sm:flex nav_m top-24 hidden justify-between">
+        <div class="flex flex-col">
+          <a class="nav-links" href="#about">about</a>
+          <a class="nav-links" href="#experience">experience</a>
+          <a class="nav-links" href="#projects">projects</a>
+          <a class="nav-links" href="#contact">contact</a>
+        </div>
+        <!-- <div id="burger2" class="cross right-0 flex flex-col">
+          <div class="bg-green-prime py-0.5 line my-1 px-5"></div>
+          <div class="bg-green-prime py-0.5 line my-1 px-5"></div>
+          <div class="bg-green-prime py-0.5 line my-1 px-5"></div>
+        </div> -->
+      </div>
+      <div class="flex container flex-col mx-auto my-10 max-md:px-5 px-32">
+        <section id="about" class="about mt-16 max-md:px-5">
+          <h3 class="text-green-white_green text-3xl font-semibold mb-5">
+            About
+          </h3>
+          <p class="text-green-white_green text-base">
+            "Kartik Malviya: Fueling Digital Transformation through Web
+            Development Excellence! Meet Kartik Malviya, a highly skilled and
+            passionate web developer, on a mission to craft captivating and
+            user-centric online experiences. With a deep-rooted love for
+            cutting-edge technologies and a keen eye for detail, Kartik brings
+            websites to life that not only impress but also drive tangible
+            results.
+          </p>
+          <div class="imgs flex max-md:flex-col justify-evenly my-10 items-center">
+            <img
+              id="langu-img"
+              src="./img/icons8-react-480.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              id="langu-img"
+              src="./img/icons8-javascript-480.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              id="langu-img"
+              src="./img/icons8-tailwindcss-480.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              id="langu-img"
+              src="./img/icons8-html-logo-480.png"
+              alt=""
+              srcset=""
+            />
+            <img
+              id="langu-img"
+              src="./img/icons8-css-logo-480.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </section>
+        <section id="experience" class="experience my-10 max-md:px-5">
+          <h3 class="text-green-white_green text-3xl font-semibold mb-5">
+            Experience
+          </h3>
+          <div class="card text-green-white_green">
+            <h2 class="text-xl">React Developer Internship</h2>
+            <h5>Feb 2023 - Jun 2023</h5>
+            <div class="info ">
+              <li id="list">
+                Join our dynamic team and learn the art of crafting interactive
+                and seamless web applications with React.
+              </li>
+              <li id="list">
+                Gain hands-on experience in front-end development, working on
+                real-world projects under expert guidance.
+              </li>
+              <li id="list">
+                Collaborate with experienced developers, enhancing your skills
+                in modern web technologies and best coding practices
+              </li>
+              <li id="list">
+                Contribute to the creation of cutting-edge user interfaces,
+                making a meaningful impact on our clients' digital presence.
+              </li>
+              <li id="list">
+                Immerse yourself in an innovative and supportive environment,
+                fostering growth and creativity throughout the internship.
+              </li>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="projects flex items-center flex-col my-10 max-md:px-5">
+            <h3 class=" text-green-white_green text-3xl font-semibold mb-5 my-10">Projects</h3>
+            <div class="card bg-green-card flex justify-center items-center flex-col w-fit rounded-2xl">
+                <div class="img p-4"><img class="rounded-xl object-cover" src="./img/Screenshot (87).png" alt=""></div>
+                <div class="headings flex justify-center flex-col items-center">
+                    <h4 class="text-green-black text-center mb-3">Movie Rating App</h4>
+                    <button class="bg-green-prime rounded-lg text-center p-3 mb-3">Click To Visit</button>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact my-10 max-md:px-5">
+            <h3 class="text-green-white_green text-3xl font-semibold mb-5 my-10">
+                Contact Me
+              </h3>
+              <form class="flex active:outline-none flex-col gap-3 justify-between" action="" method="get">
+                <div class="flex max-md:flex-col gap-3">
+                    <input class="w-full" type="text" placeholder="Full Name" name="" id="one">
+                    <input class="w-full" type="email" placeholder="Email Address" name="" id="one">
+                </div>
+                <div class="gap-3 flex flex-col">
+                    <input type="text" placeholder="Subject Field" name="" id="one">
+                    <textarea name="" placeholder="Message Field" id="one" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+            <button class="bg-green-prime rounded-lg text-center p-3 my-2">sand Massage</button>
+        </section>
+        <section id="social" class="social my-10 max-md:px-5">
+            <div class="icon flex justify-center gap-5">
+                <a href=""><img id="icon" src="./img/icons8-github.svg" alt=""></a>
+                <a href=""><img id="icon" src="/img/icons8-linkedin.svg" alt=""></a>
+                <a href=""><img id="icon" src="./img/icons8-facebook.svg" alt=""></a>
+                <a href=""><img id="icon" src="./img/icons8-instagram.svg" alt=""></a>
+            </div>
+        </section>
+    </div>
+</div>
+<div id="line"></div>
+
+<h5 class="text-green-prime text-center my-2 mb-10">@Kartik Malviya | All Right reserved</h5>
+<script src="./src/app.js"></script>
+  </body>
+</html>
